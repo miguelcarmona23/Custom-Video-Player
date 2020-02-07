@@ -26,7 +26,7 @@ function handleRangeUpdate() {
 }
 
 function handleProgress() {
-
+    const percent = (video.currentTime / video.duration) * 100;
 }
 
 
