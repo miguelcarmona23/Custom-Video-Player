@@ -17,6 +17,10 @@ function updateButton() {
     toggle.textContent = icon;
 }
 
+function skip() {
+    console.log('Skipping!');
+}
+
 
 video.addEventListener('click', togglePlay);
 video.addEventListener('play', updateButton);
