@@ -25,6 +25,10 @@ function handleRangeUpdate() {
     video[this.name] = this.value;
 }
 
+function handleProgress() {
+
+}
+
 
 video.addEventListener('click', togglePlay);
 video.addEventListener('play', updateButton);
