@@ -28,3 +28,11 @@ body {
     font-size: 0;
     overflow: hidden;
 }
+
+
+/*ONLY APPLIES WHEN IN FULLSCREEN*/
+
+.player:fullscreen {
+    max-width: none;
+    width: 100%;
+}
