@@ -12,8 +12,8 @@ function togglePlay() {
 }
 
 function updateButton() {
-    const icon = this.pause ? '►' ? '▌▌';
-    console.log('Update the button')
+    const icon = this.pause ? '►' : '▌▌';
+    toggle.textContent = icon;
 }
 
 
