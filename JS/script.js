@@ -17,7 +17,7 @@ function updateButton() {
 
 
 video.addEventListener('click', togglePlay);
-video.addEventListener('play', togglePlay);
-video.addEventListener('pause', togglePlay);
+video.addEventListener('play', updateButton);
+video.addEventListener('pause', updateButton);
 
 toggle.addEventListener('click', togglePlay);
