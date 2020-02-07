@@ -45,3 +45,15 @@ body {
 .player__video {
     width: 100%;
 }
+
+.player__button {
+    background: none;
+    border: 0;
+    line-height: 1;
+    color: white;
+    text-align: center;
+    outline: 0;
+    padding: 0;
+    cursor: pointer;
+    max-width: 50px;
+}
