@@ -7,3 +7,15 @@ html {
 *:after {
     box-sizing: inherit;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background: #090979;
+    min-height: 100vh;
+    background: linear-gradient(165deg, #020024 10%, #090979 35%, #00d4ff 100%);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
