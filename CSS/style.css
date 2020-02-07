@@ -100,3 +100,10 @@ body {
     background: rgba(0, 0, 0, 0.5);
     cursor: ew-resize;
 }
+
+.progress__filled {
+    width: 50%;
+    background: #ffc600;
+    flex: 0;
+    flex-basis: 50%;
+}
