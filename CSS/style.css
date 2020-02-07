@@ -66,3 +66,14 @@ body {
     width: 10px;
     height: 30px;
 }
+
+.player__controls {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transform: translateY(100%) translateY(-5px);
+    transition: all .3s;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0.1);
+}
