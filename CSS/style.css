@@ -81,3 +81,7 @@ body {
 .player:hover .player__controls {
     transform: translateY(0);
 }
+
+.player:hover .progress {
+    height: 15px;
+}
